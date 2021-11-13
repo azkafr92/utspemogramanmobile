@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="platinum">#EAEBED</color>
+    <color name="blue_sapphire">#006989</color>
+    <color name="powder_blue">#A3BAC3</color>
+    <color name="cg_blue">#007090</color>
+    <color name="pacific_blue">#01A7C2</color>
+    <color name="carmine">#901B22</color>
+    <color name="fire_engine_red">#C2242D</color>
+    <color name="soft_white">#FDFFFF</color>
+    <color name="middle_green_yellow">#A3BF50</color>
+    <color name="olive_drab_3">#778B3B</color>
+</resources>

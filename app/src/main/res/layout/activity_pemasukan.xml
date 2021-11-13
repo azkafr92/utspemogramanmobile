@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:layout_gravity="center"
+    tools:context=".PemasukanActivity"
+    android:id="@+id/pemasukanRoot">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addIncomeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_baseline_add_24"
+        android:tint="@color/soft_white"
+        android:backgroundTint="@color/middle_green_yellow"
+        app:fabSize="normal"
+        app:rippleColor="@color/soft_white"
+        app:borderWidth="0dp"
+        android:elevation="8dp"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
