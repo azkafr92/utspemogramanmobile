@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:text="Pilih aktivitas"
             android:textColor="@color/black"
-            android:textSize="20dp"
+            android:textSize="15sp"
             android:fontFamily="@font/color_tube_regular"/>
 
         <LinearLayout
@@ -28,12 +28,13 @@
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/pemasukanCard"
+                android:id="@+id/transaction_card"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="15dp"
                 android:layout_marginTop="20dp"
+                android:focusable="true"
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground">
 
@@ -44,79 +45,39 @@
                     android:padding="10dp">
 
                     <TextView
-                        android:id="@+id/subtitle1"
+                        android:id="@+id/subtitle_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Catat"
-                        android:textSize="20dp"
+                        android:textSize="20sp"
                         android:textColor="@color/soft_white"
                         android:fontFamily="@font/color_tube_regular"
                         android:layout_marginTop="10dp"
-                        android:layout_marginLeft="10dp"/>
+                        android:layout_marginStart="10dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Pemasukan"
-                        android:textSize="20dp"
-                        android:textColor="@color/soft_white"
+                        android:layout_below="@+id/subtitle_1"
+                        android:layout_marginStart="10dp"
                         android:fontFamily="@font/color_tube_regular"
-                        android:layout_below="@+id/subtitle1"
-                        android:layout_marginLeft="10dp"/>
+                        android:text="Transaksi"
+                        android:textColor="@color/soft_white"
+                        android:textSize="20sp" />
 
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/pengeluaranCard"
+                android:id="@+id/bookkeeper_card"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 app:cardCornerRadius="15dp"
                 android:layout_marginTop="20dp"
                 app:cardElevation="8dp"
                 android:clickable="true"
-                android:foreground="?android:attr/selectableItemBackground">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/carmine"
-                    android:padding="10dp">
-
-                    <TextView
-                        android:id="@+id/subtitle2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Catat"
-                        android:textSize="20dp"
-                        android:textColor="@color/soft_white"
-                        android:fontFamily="@font/color_tube_regular"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginLeft="10dp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Pengeluaran"
-                        android:textSize="20dp"
-                        android:textColor="@color/soft_white"
-                        android:fontFamily="@font/color_tube_regular"
-                        android:layout_below="@+id/subtitle2"
-                        android:layout_marginLeft="10dp"/>
-
-                </RelativeLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/laporanCard"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                app:cardCornerRadius="15dp"
-                android:layout_marginTop="20dp"
-                app:cardElevation="8dp"
-                android:clickable="true"
+                android:focusable="true"
                 android:foreground="?android:attr/selectableItemBackground">
 
                 <RelativeLayout
@@ -126,25 +87,25 @@
                     android:padding="10dp">
 
                     <TextView
-                        android:id="@+id/subtitle3"
+                        android:id="@+id/subtitle_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Lihat"
-                        android:textSize="20dp"
+                        android:textSize="20sp"
                         android:textColor="@color/soft_white"
                         android:fontFamily="@font/color_tube_regular"
                         android:layout_marginTop="10dp"
-                        android:layout_marginLeft="10dp"/>
+                        android:layout_marginStart="10dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Laporan Keuangan"
-                        android:textSize="20dp"
+                        android:textSize="20sp"
                         android:textColor="@color/soft_white"
                         android:fontFamily="@font/color_tube_regular"
-                        android:layout_below="@id/subtitle3"
-                        android:layout_marginLeft="10dp"/>
+                        android:layout_below="@id/subtitle_3"
+                        android:layout_marginStart="10dp"/>
 
                 </RelativeLayout>
 

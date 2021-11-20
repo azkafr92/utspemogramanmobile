@@ -4,13 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:padding="16dp"
+    android:padding="4dp"
     android:layout_gravity="center"
-    tools:context=".PemasukanActivity"
+    tools:context=".TransactionActivity"
     android:id="@+id/pemasukanRoot">
 
+    <FrameLayout
+        android:id="@+id/add_transaction_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TableLayout>
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/addIncomeButton"
+        android:id="@+id/button_show_add_transaction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"

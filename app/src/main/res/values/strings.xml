@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Buku Keuangan</string>
+    <string-array name="item_category">
+        <item>Pemasukan</item>
+        <item>Pengeluaran</item>
+    </string-array>
+    <string name="fragment_bookkeeper_income_title">Hello from bookkeeper income</string>
+    <string name="fragment_bookkeeper_outcome_title">Hello from bookkeeper outcome</string>
 </resources>
